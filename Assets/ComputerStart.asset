@@ -11,13 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
   m_Name: ComputerStart
   m_EditorClassIdentifier: 
-  storyText: 'You have chosen to go on the computer. After 8 long hours on the computer
-    what harm will another 4 have?
-
-
-    You feel the fatigue washing over you. This was a bad descision.'
+  storyText: "You have chosen to go on the computer. After long hours on the computer
+    what harm will another few hours have?\r\n\r\nYou feel the fatigue washing over
+    you.\r\n\r\nWhat do you want to do?"
   optionOne: Go to bed.
-  optionTwo: 
-  optionThree: 
+  optionTwo: Open Social Media
+  optionThree: Learn Something
   nextStates:
   - {fileID: 11400000, guid: 37a4f17b0abce924f8df4186e1f0ecdc, type: 2}
