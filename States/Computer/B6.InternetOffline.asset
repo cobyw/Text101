@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: B6.InternetOffline
+  m_EditorClassIdentifier: 
+  storyText: "You control a dinosaur who is tasked with jumping over desert flora
+    and other dinosaur fauna. You jump well and are able to get a decent score.\r\n\r\nThe
+    internet is still offline.\r\n\r\nWhat would you like to do?"
+  optionOne: Continue playing the internet offline game.
+  optionTwo: Go to bed.
+  optionThree: 
+  nextStates:
+  - {fileID: 11400000, guid: ef241da826515f1499da15371cfd5af4, type: 2}
+  - {fileID: 11400000, guid: d06c0b2a3b1f5c84cbb459228c454a82, type: 2}

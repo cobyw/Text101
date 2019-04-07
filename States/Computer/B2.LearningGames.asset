@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: B2.LearningGames
+  m_EditorClassIdentifier: 
+  storyText: "What even are video games anyway? You dive headlong into goooble learning
+    about this crazy new fad all the kids are into.\r\n\r\nWhat topic would you like
+    to search?"
+  optionOne: What are video games?
+  optionTwo: Are video games art?
+  optionThree: Are video games a mistake?
+  nextStates:
+  - {fileID: 11400000, guid: 0dffaa8ca2804234b9f77d608be3c502, type: 2}
+  - {fileID: 11400000, guid: 866f94c4b335e9544be14f13d63b91ec, type: 2}
+  - {fileID: 11400000, guid: 05669c55b11742341aeb3d024e6044cf, type: 2}

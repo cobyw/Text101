@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: A5.CrunchyRoll
+  m_EditorClassIdentifier: 
+  storyText: "You load up Spicy Roll. A list of your top Japanese cartoons loads in.
+    The UI is a bit difficult to navigate.\n\r\nWhat do you want to watch?"
+  optionOne: Japanese Cartoons.
+  optionTwo: Japanese Cartoons (Adult).
+  optionThree: 
+  nextStates:
+  - {fileID: 11400000, guid: c035767ddac69934ea54dac27303cdfd, type: 2}
+  - {fileID: 11400000, guid: c035767ddac69934ea54dac27303cdfd, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: X3.UpTooLate
+  m_EditorClassIdentifier: 
+  storyText: "You shuffle to bed, exhausted. Once in bet you can't sleep. Your mind
+    is racing with thoughts of Awesome Show. After what feels like forever you finally
+    fall into a fitful sleep.\r\n\r\nYou are disappointed in yourself for staying
+    up so late.\n\nWould you like to try again?"
+  optionOne: Yes, tomorrow is a new day.
+  optionTwo: No, I'm fine with my decisions.
+  optionThree: 
+  nextStates:
+  - {fileID: 11400000, guid: b0f947f8a98cc424bbc58cb7e0a61e8c, type: 2}
+  - {fileID: 11400000, guid: c0f634904e74b444ea4f4ee25c5a305c, type: 2}

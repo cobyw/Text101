@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: A2.Computer
+  m_EditorClassIdentifier: 
+  storyText: "You have chosen to go on the computer. After a long day on the computer
+    at work, what harm will another few hours have?\r\n\r\nYou feel the fatigue washing
+    over you.\r\n\r\nWhat do you want to do?"
+  optionOne: Go to bed.
+  optionTwo: Open social media.
+  optionThree: Learn something.
+  nextStates:
+  - {fileID: 11400000, guid: 77ca136e1cca3e24191bf6ee9b45498e, type: 2}
+  - {fileID: 11400000, guid: 1ee7536f1e39def45a3348d07ce48f7e, type: 2}
+  - {fileID: 11400000, guid: ed398bcc78ce84b4ba9eb3b80482684c, type: 2}

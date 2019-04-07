@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: A8.NetflixAmazon
+  m_EditorClassIdentifier: 
+  storyText: "You load up your preferred streaming client. It is way better than the
+    competition.\r\n\r\nWhat do you want to watch?"
+  optionOne: TV Series.
+  optionTwo: Movie.
+  optionThree: 
+  nextStates:
+  - {fileID: 11400000, guid: f69998477ff2c734cbbc81fe319c629b, type: 2}
+  - {fileID: 11400000, guid: abb34d6babea5fa4998a1a6f045e783f, type: 2}

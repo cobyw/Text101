@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: B10.GameArt
+  m_EditorClassIdentifier: 
+  storyText: "You think for a bit and then type \"Are video games art?\" goooble spits
+    back two sides of a debate. You read over them and come to a conclusion.\r\n\r\nAre
+    video games art?"
+  optionOne: Yes, video games are art.
+  optionTwo: No, video games are not art.
+  optionThree: Some video games are art, some are not.
+  nextStates:
+  - {fileID: 11400000, guid: a1471af09fda98c45a7fcc3dc97da80c, type: 2}
+  - {fileID: 11400000, guid: a1471af09fda98c45a7fcc3dc97da80c, type: 2}
+  - {fileID: 11400000, guid: a1471af09fda98c45a7fcc3dc97da80c, type: 2}

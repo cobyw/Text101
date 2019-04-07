@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: S3.Animals
+  m_EditorClassIdentifier: 
+  storyText: "You are pleased that you learned something new. You fall asleep quickly
+    and dream of adorable animals.\r\n\r\nWould you like to play again?"
+  optionOne: Yes, I would like to try another path.
+  optionTwo: No, I'm satisfied with myself.
+  optionThree: 
+  nextStates:
+  - {fileID: 11400000, guid: b0f947f8a98cc424bbc58cb7e0a61e8c, type: 2}
+  - {fileID: 11400000, guid: c0f634904e74b444ea4f4ee25c5a305c, type: 2}

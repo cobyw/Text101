@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: B1.Learning
+  m_EditorClassIdentifier: 
+  storyText: "You have chosen to improve yourself.\n\nYou feel invigorated at the
+    prospect.\r\n\r\nWhat topic would you like to dive into?"
+  optionOne: Video games are an up and coming trend.
+  optionTwo: Animals are cute, what are they up to?
+  optionThree: 
+  nextStates:
+  - {fileID: 11400000, guid: 41063aca49041b744a5c8f8d7fe5d56a, type: 2}
+  - {fileID: 11400000, guid: 36d6d3c098199984693da9f0776af09a, type: 2}

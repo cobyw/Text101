@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: B3.LearningGames2
+  m_EditorClassIdentifier: 
+  storyText: "You carefully type \"What are video games\" into the search bar. You
+    take a sip of water and pour over the information on your screen.\r\n\r\n\"a game
+    played by electronically manipulating images produced by a computer program on
+    a television screen or other display screen.\"\r\n\r\nYou think about how you
+    manipulated the images on the screen to get this search result.\r\n\r\nWhat topic
+    would you like to search?"
+  optionOne: Is goooble a video game?
+  optionTwo: Are video games art?
+  optionThree: Are video games a mistake?
+  nextStates:
+  - {fileID: 11400000, guid: 19cca3302e83a6f499dceda4fe643d86, type: 2}
+  - {fileID: 11400000, guid: 866f94c4b335e9544be14f13d63b91ec, type: 2}
+  - {fileID: 11400000, guid: 05669c55b11742341aeb3d024e6044cf, type: 2}

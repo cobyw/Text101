@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: A4.SocialMedia
+  m_EditorClassIdentifier: 
+  storyText: "You scroll mindlessly through social media.\r\n\r\n20 minutes pass by.\r\n\r\nAn
+    hour passes by.\r\n\r\nFour hours down the drain. Its time for bed.\r\n\r\nWhat
+    do you want to do?"
+  optionOne: Go to bed.
+  optionTwo: 
+  optionThree: 
+  nextStates:
+  - {fileID: 11400000, guid: 77ca136e1cca3e24191bf6ee9b45498e, type: 2}

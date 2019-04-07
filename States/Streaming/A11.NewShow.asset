@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb86f85846032a4b885589e8bb3eb12, type: 3}
+  m_Name: A11.NewShow
+  m_EditorClassIdentifier: 
+  storyText: "You start watching Amazing Show. The first few minutes are slow but
+    it picks up. Before you know it you are 4 episodes in.\r\n\r\nIts getting late.\r\n\r\nWhat
+    do you want to do?"
+  optionOne: Continue Watching Amazing Show (One more episode).
+  optionTwo: Go to bed.
+  optionThree: 
+  nextStates:
+  - {fileID: 11400000, guid: 88431ac3490b7e24b80f7858200249e4, type: 2}
+  - {fileID: 11400000, guid: 28f13e5dd81931f4fbd4afe1712265ad, type: 2}
